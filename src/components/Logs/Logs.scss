@@ -1,0 +1,44 @@
+@import "../../Style/variable.scss";
+
+.logs-heading {
+  //   text-align: center;
+  color: $soft-color;
+  letter-spacing: 2px;
+}
+hr {
+  margin-top: 5px;
+  background-color: #384256;
+}
+.program {
+  flex: 1;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+}
+
+.program > div {
+  display: flex;
+  width: "770px";
+  height: "300px";
+  margin: 5px;
+  margin-bottom: 0px;
+}
+.log-tracer {
+  margin-top: 20px;
+  justify-content: flex-start;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
